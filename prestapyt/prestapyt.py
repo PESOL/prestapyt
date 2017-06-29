@@ -262,7 +262,7 @@ class PrestaShopWebService(object):
             )
         supported = (
             'filter', 'display', 'sort',
-            'limit', 'schema', 'date', 'id_shop'
+            'limit', 'schema', 'date', 'id_shop', 'id_shop_group'
         )
         # filter[firstname] (as e.g.) is allowed
         # so check only the part before a [
